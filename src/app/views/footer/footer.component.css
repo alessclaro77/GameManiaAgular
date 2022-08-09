@@ -1,0 +1,153 @@
+footer {
+    background-color: black;
+    
+}
+
+.roda-pe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+    border-top-style: solid;
+    border-bottom: solid;
+    border-color: rgb(255, 255, 255);
+   
+
+}
+
+.roda-pe a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: normal;
+    
+}
+
+.conteudo-pagamento {
+    height: 220px;
+    
+}
+
+.conteudo-pagamento h5 {
+    font-family: "Roboto";
+    padding-top: 10px;
+    
+    color: white;
+    
+}
+
+.conteudo-pagamento img {
+    width: 60px;
+}
+
+.conteudo-informacoes {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.conteudo-informacoes h5 {
+    font-family: "Roboto";
+    padding-top: 10px;
+
+    color: white;
+
+}
+
+/* .conteudo-informacoes ul {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    list-style: circle;
+
+    color: white; */
+
+/* } */
+
+.conteudo-atendimento {
+    height: 220px;
+       
+}
+
+.conteudo-atendimento h5 {
+    font-family: "Roboto";
+    padding-top: 10px;
+    
+    color: white;
+    
+}
+
+.conteudo-atendimento ul {
+    font-family: "Roboto";
+    font-size: 16px;
+    list-style: none;
+    
+    color: white;
+    
+}
+.conteudo-atendimento img {
+    width: 20px;
+}
+
+.midia-social {
+    height: 220px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.formulario p {
+    font-family: "Roboto";
+    font-size: 17px;
+    padding-top: 10px;
+    
+    color: white;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    text-align: center;
+    text-decoration: dotted;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+.midia-social h5{
+    font-family: "Roboto";
+    padding-top: 10px;
+    
+    color: white;
+}
+
+.midia-social img {
+    height: 40px;
+}
+
+.roda-pe1 {
+    display: flex;
+    justify-content: space-between; 
+    background-color: black;
+    align-items: center;
+
+}
+
+.roda-pe1 h6 {
+    font-family: "Roboto";
+    padding-top: 10px;
+    
+    
+    color: white;
+}
+
+.roda-pe1 img {
+    width: 160px;
+    background-color: black;
+}

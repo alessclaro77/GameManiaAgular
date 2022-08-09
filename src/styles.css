@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Titillium+Web:wght@200;400;600&display=swap');
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    max-width: 1200px;
+    background-color: black;
+}
+
+/* .container-grid {
+    width: 1200px;
+    margin: 0 auto;
+
+} */

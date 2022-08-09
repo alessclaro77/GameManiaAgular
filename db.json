@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "nome": "alex",
+      "email": "alessclaro@gmail.com",
+      "password": "senhaforte",
+      "id": 1
+    },
+    {
+      "nome": "Melina",
+      "email": "mel@gmail.com",
+      "password": "senhamel",
+      "id": 3
+    },
+    {
+      "email": "vivi@gmail.com",
+      "password": "$2a$10$aotUj9KROb6Fb7/Ix0c0tuRafH97GIft1N2qyPkC3kSxKZ7RQZk8y",
+      "nome": "Viviana",
+      "id": 4
+    }
+  ]
+}

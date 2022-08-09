@@ -1,0 +1,166 @@
+
+.banner {
+    background-image: url(/assets/img/Banner.png);
+    height: 572px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posicionamento-banner {
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.conteudo-banner {
+    width: 565px;
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.conteudo-banner a {
+    padding: 10px;
+
+    color: white;
+    background-color: #090D7C;
+    border-radius: 5px;
+
+    font-family: "Roboto";
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.conteudo-banner h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.conteudo-banner p {
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.lancamentos {
+    height: 350px;
+    background-image: linear-gradient(to bottom, #070707, #3e3e3e, #797878, #b9b8b8, #fdfdfc);
+
+}
+
+.lancamentos-titulo {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 15%;
+}
+  
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 0 1vw;
+}  
+
+
+.galeria-items {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #fdfbfc;
+    box-shadow: 2px 2px 2px;
+    flex-grow: 1;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: white;
+       
+}
+
+.galeria-items:hover {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+
+
+.galeria-items img {
+    height: 90%;
+    object-fit: cover;
+    
+  
+}
+  
+
+
+.jogos {
+    height: 100px;
+    background-color: black;
+}
+
+.posicionamento-jogos {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.posicionamento-jogos img {
+    height: 70px;
+       
+}
+
+.campeonatos {
+    height: 300px;
+    background-image: linear-gradient(to bottom, #fdfbfc, #e7e5e7, #d2d0d2, #bcbbbe, #a7a7aa, #929295, #7d7d80, #69696c, #505052, #383839, #222122, #090909);
+}
+
+.campeonatos-proximos {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.campeonatos-proximos h2 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.campeonatos-proximos img {
+    height: 250px; 
+}
+
+
+@media screen and (max-width: 1000px) {
+    .conteudo-sobre {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .conteudo-sobre {
+        background-color: darkblue;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
